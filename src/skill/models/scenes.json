@@ -1,0 +1,407 @@
+[
+  {
+    "id": 0,
+    "color": "default",
+    "isHidden": false,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Welcome",
+      "text": "Hello buddy. Shall we start pairing ?",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Hello buddy. Shall we start pairing ?",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "utterances": [
+          "begin"
+        ],
+        "sceneId": 1
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "color": "default",
+    "isHidden": false,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Choice of app",
+      "text": "Which app you want to create?",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Which app you want to create?",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 2,
+        "utterances": [
+          "save the hacker"
+        ]
+      },
+      {
+        "sceneId": 3,
+        "utterances": [
+          "women who code"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "color": "green",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "website status",
+      "text": "Site successfully created. Please check the slack channel to access the url. Open the url and say ok",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Site successfully created. Please check the slack channel to access the url. Open the url and say ok",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 10,
+        "utterances": [
+          "ok"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "color": "green",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "website status",
+      "text": "Site successfully created. Please check the slack channel to access the url.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Site successfully created. Please check the slack channel to access the url.",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 4,
+    "color": "green",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "border has been added.",
+      "text": "border has been added.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "border has been added.",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 5,
+    "color": "green",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "border has been removed",
+      "text": "border has been removed",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "border has been removed",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 6,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": true,
+    "card": {
+      "title": "Adding border",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Ok. Other options,",
+      "prompt": "taking to add border"
+    },
+    "options": []
+  },
+  {
+    "id": 7,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "exit",
+      "text": "Designing completed",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Ok. Designing completed",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 8,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "adding border",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "going to add border",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 9,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Exit",
+      "text": "thanks for pairing",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "thanks for pairing",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 10,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "website design",
+      "text": "how would you like to design the website ?",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "how would you like to design the website ?",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 11,
+        "utterances": [
+          "add background"
+        ]
+      },
+      {
+        "sceneId": 12,
+        "utterances": [
+          "add border"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "color": "green",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "background status",
+      "text": "background updated successfully. do you like it ?",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "background updated successfully. do you like it ?",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 13,
+        "utterances": [
+          "yes i like the background"
+        ]
+      },
+      {
+        "sceneId": 14,
+        "utterances": [
+          "no i dont like the background"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "color": "green",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "border status",
+      "text": "border updated successfully. do you like it ?",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "border updated successfully. do you like it ?",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 4,
+        "utterances": [
+          "yes i like the border"
+        ]
+      },
+      {
+        "sceneId": 5,
+        "utterances": [
+          "no i dont like the border"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "color": "green",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "background update completed",
+      "text": "background update completed. do you want to update anything else?",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "background update completed. do you want to update anything else?",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 6,
+        "utterances": [
+          "add border"
+        ]
+      },
+      {
+        "sceneId": 7,
+        "utterances": [
+          "exit skill"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "color": "green",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "background updated again.",
+      "text": "background updated again.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "background updated again.",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 8,
+        "utterances": [
+          "add border"
+        ]
+      },
+      {
+        "sceneId": 9,
+        "utterances": [
+          "exit skill"
+        ]
+      }
+    ]
+  }
+]

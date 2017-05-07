@@ -1,0 +1,64 @@
+{
+  "intents": [
+    {
+      "intent": "UnrecognizedIntent"
+    },
+    {
+      "intent": "ResetStateIntent"
+    },
+    {
+      "intent": "RestoreStateIntent"
+    },
+    {
+      "intent": "RepeatOptionsIntent"
+    },
+    {
+      "intent": "RepeatSceneIntent"
+    },
+    {
+      "intent": "GoBackIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "BeginIntent"
+    },
+    {
+      "intent": "SaveTheHackerIntent"
+    },
+    {
+      "intent": "WomenWhoCodeIntent"
+    },
+    {
+      "intent": "OkIntent"
+    },
+    {
+      "intent": "AddBackgroundIntent"
+    },
+    {
+      "intent": "AddBorderIntent"
+    },
+    {
+      "intent": "YesILikeTheBackgroundIntent"
+    },
+    {
+      "intent": "NoIDontLikeTheBackgroundIntent"
+    },
+    {
+      "intent": "YesILikeTheBorderIntent"
+    },
+    {
+      "intent": "NoIDontLikeTheBorderIntent"
+    },
+    {
+      "intent": "ExitSkillIntent"
+    }
+  ]
+}

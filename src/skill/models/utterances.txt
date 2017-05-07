@@ -1,0 +1,31 @@
+UnrecognizedIntent ThisIsPurposlyNonSense
+UnrecognizedIntent ThisIsPurposlyNonSense ThisIsPurposlyNonSense
+UnrecognizedIntent ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense
+UnrecognizedIntent ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense
+UnrecognizedIntent ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense
+ResetStateIntent reset skill
+ResetStateIntent start again
+ResetStateIntent reset
+RestoreStateIntent resume skill
+RestoreStateIntent resume
+RepeatOptionsIntent repeat options
+RepeatSceneIntent repeat scene
+RepeatSceneIntent repeat
+GoBackIntent go back
+AMAZON.HelpIntent help
+AMAZON.StopIntent exit skill
+AMAZON.CancelIntent exit skill
+BeginIntent begin
+SaveTheHackerIntent save the hacker
+WomenWhoCodeIntent women who code
+OkIntent ok
+AddBackgroundIntent add background
+AddBorderIntent add border
+YesILikeTheBackgroundIntent yes i like the background
+NoIDontLikeTheBackgroundIntent no i dont like the background
+YesILikeTheBorderIntent yes i like the border
+NoIDontLikeTheBorderIntent no i dont like the border
+AddBorderIntent add border
+ExitSkillIntent exit skill
+AddBorderIntent add border
+ExitSkillIntent exit skill
