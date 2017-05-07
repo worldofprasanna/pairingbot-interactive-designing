@@ -40,6 +40,12 @@
       "intent": "OkIntent"
     },
     {
+      "intent": "ExitSkillIntent"
+    },
+    {
+      "intent": "CreateAnotherSiteIntent"
+    },
+    {
       "intent": "AddBackgroundIntent"
     },
     {
@@ -58,7 +64,7 @@
       "intent": "NoIDontLikeTheBorderIntent"
     },
     {
-      "intent": "ExitSkillIntent"
+      "intent": "GoToWebsiteDesignIntent"
     }
   ]
 }

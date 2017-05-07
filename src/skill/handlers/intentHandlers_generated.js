@@ -37,6 +37,12 @@ module.exports = {
 	"OkIntent": function ( intent, session, request, response ) {
 		processUtterance( intent, session, request, response, "ok" )
 	},
+	"ExitSkillIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "exit skill" )
+	},
+	"CreateAnotherSiteIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "create another site" )
+	},
 	"AddBackgroundIntent": function ( intent, session, request, response ) {
 		processUtterance( intent, session, request, response, "add background" )
 	},
@@ -55,7 +61,7 @@ module.exports = {
 	"NoIDontLikeTheBorderIntent": function ( intent, session, request, response ) {
 		processUtterance( intent, session, request, response, "no i dont like the border" )
 	},
-	"ExitSkillIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "exit skill" )
+	"GoToWebsiteDesignIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "go to website design" )
 	},
 }

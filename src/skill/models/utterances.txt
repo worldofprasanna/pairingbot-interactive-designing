@@ -19,13 +19,18 @@ BeginIntent begin
 SaveTheHackerIntent save the hacker
 WomenWhoCodeIntent women who code
 OkIntent ok
+ExitSkillIntent exit skill
+CreateAnotherSiteIntent create another site
+ExitSkillIntent exit skill
+CreateAnotherSiteIntent create another site
+ExitSkillIntent exit skill
 AddBackgroundIntent add background
 AddBorderIntent add border
 YesILikeTheBackgroundIntent yes i like the background
 NoIDontLikeTheBackgroundIntent no i dont like the background
 YesILikeTheBorderIntent yes i like the border
 NoIDontLikeTheBorderIntent no i dont like the border
-AddBorderIntent add border
+GoToWebsiteDesignIntent go to website design
 ExitSkillIntent exit skill
-AddBorderIntent add border
+GoToWebsiteDesignIntent go to website design
 ExitSkillIntent exit skill

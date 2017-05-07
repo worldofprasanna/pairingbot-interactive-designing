@@ -10,7 +10,7 @@ function processUtterance ( intent, session, request, responseFn, utterance ) {
 
   utterance = ( utterance || '' ).toLowerCase()
 
-  if (utterance === 'save the hacker'){
+  if (utterance === 'save the hacker') {
     var options = {
       host: 'cbsw88isjl.execute-api.us-west-2.amazonaws.com',
       path: '/prod/spark-create-blog',
@@ -83,7 +83,6 @@ function processUtterance ( intent, session, request, responseFn, utterance ) {
       console.error(e);
     });
   }
-
   else if (utterance === 'add background'){
     var img = 'savethehacker1';
     var options = {
@@ -190,7 +189,22 @@ function processUtterance ( intent, session, request, responseFn, utterance ) {
     req.on('error', function (e) {
       console.error(e);
     });
-  } else {
+  }
+
+  else if (utterance === 'go to website design') {
+    session.attributes.currentSceneId = 10;
+    var scene = utils.findResponseBySceneId( session.attributes.currentSceneId );
+    respond.readSceneWithCard( scene, session, responseFn );
+  }
+  else if (utterance === 'create another site') {
+    console.log('==========>>>>> in website templates 1');
+    session.attributes.currentSceneId = 1;
+    console.log('==========>>>>> in website templates 2');
+    var scene = utils.findResponseBySceneId( session.attributes.currentSceneId );
+    console.log('==========>>>>> in website templates 3');
+    respond.readSceneWithCard( scene, session, responseFn );
+  }
+  else {
     proceedAfterResponse(intent, session, request, responseFn, utterance);
   }
 

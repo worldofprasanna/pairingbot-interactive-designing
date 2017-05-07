@@ -67,7 +67,7 @@
     "readPreviousOptions": false,
     "card": {
       "title": "website status",
-      "text": "Site successfully created. Please check the slack channel to access the url. Open the url and say ok",
+      "text": "Site successfully created. Please check the slack channel to access the url. Open the url and",
       "prompt": "",
       "image": {
         "largeImageUrl": null,
@@ -106,7 +106,14 @@
       "intro": "Site successfully created. Please check the slack channel to access the url.",
       "prompt": ""
     },
-    "options": []
+    "options": [
+      {
+        "sceneId": 17,
+        "utterances": [
+          "exit skill"
+        ]
+      }
+    ]
   },
   {
     "id": 4,
@@ -127,7 +134,20 @@
       "intro": "border has been added.",
       "prompt": ""
     },
-    "options": []
+    "options": [
+      {
+        "sceneId": 15,
+        "utterances": [
+          "create another site"
+        ]
+      },
+      {
+        "sceneId": 18,
+        "utterances": [
+          "exit skill"
+        ]
+      }
+    ]
   },
   {
     "id": 5,
@@ -148,7 +168,20 @@
       "intro": "border has been removed",
       "prompt": ""
     },
-    "options": []
+    "options": [
+      {
+        "sceneId": 16,
+        "utterances": [
+          "create another site"
+        ]
+      },
+      {
+        "sceneId": 19,
+        "utterances": [
+          "exit skill"
+        ]
+      }
+    ]
   },
   {
     "id": 6,
@@ -158,7 +191,7 @@
     "readPreviousOptions": true,
     "card": {
       "title": "Adding border",
-      "text": "",
+      "text": "going to add border",
       "prompt": "",
       "image": {
         "largeImageUrl": null,
@@ -200,7 +233,7 @@
     "readPreviousOptions": false,
     "card": {
       "title": "adding border",
-      "text": "",
+      "text": "going to add border",
       "prompt": "",
       "image": {
         "largeImageUrl": null,
@@ -359,7 +392,7 @@
       {
         "sceneId": 6,
         "utterances": [
-          "add border"
+          "go to website design"
         ]
       },
       {
@@ -393,7 +426,7 @@
       {
         "sceneId": 8,
         "utterances": [
-          "add border"
+          "go to website design"
         ]
       },
       {
@@ -403,5 +436,110 @@
         ]
       }
     ]
+  },
+  {
+    "id": 15,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "website template",
+      "text": "website template",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "going to website template",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 16,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "website template",
+      "text": "website template",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "going to website template",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 17,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "exit",
+      "text": "Thanks for pairing.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Thanks for pairing.",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 18,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "exit",
+      "text": "Thanks for pairing.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Thanks for pairing.",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 19,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "exit",
+      "text": "Thanks for pairing.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Thanks for pairing.",
+      "prompt": ""
+    },
+    "options": []
   }
 ]
